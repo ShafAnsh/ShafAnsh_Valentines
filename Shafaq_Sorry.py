@@ -58,16 +58,16 @@ spawn_hearts()
 
 # Second button: personalized message for Shafaq (Khabbo)
 def special_message():
-    pygame.mixer.music.load("special_song.mp3")  # <-- another music file
+    pygame.mixer.music.load("KaliKaliZulfon.mp3")  # <-- another music file
     pygame.mixer.music.play(-1)
-    label.config(text="Shafaq, my Khabbo... You are my forever.")
+    label.config(text="Shafaq, Meri Khabbo... You are my forever.")
 
 btn1 = tk.Button(root, text="Click to know my heart",
                  font=("Helvetica", 14, "bold"), fg="#ffffff", bg="#333333",
-                 activebackground="#ff4d6d", command=lambda: label.config(text="You are my everything, Shafaq."))
+                 activebackground="#ff4d6d", command=lambda: label.config(text="My Dearest Shafaq, from the very first moment we became friends, you brought light into my life. Every laugh we’ve shared, every conversation we’ve had, has made me realize how precious you are to me. You are not just my best friend—you are my safe place, my joy, and the person who makes even ordinary days feel extraordinary. I cherish the bond we share, and I find myself dreaming of a future where we walk side by side, not just as friends, but as partners in life. I call you “Khabbo” because that name carries all the affection and tenderness I feel for you. It’s my way of holding you close, even when words fall short. I don’t know what tomorrow holds, but I do know this: my heart feels complete when I think of you. You are my everything, and I cannot imagine my world without your presence in it.With all my love, You are my everything, Shafaq."))
 btn1.place(relx=0.5, rely=0.6, anchor="center")
 
-btn2 = tk.Button(root, text="Special for Khabbo",
+btn2 = tk.Button(root, text="Specially for you, Meri Khabbo",
                  font=("Helvetica", 14, "bold"), fg="#ffffff", bg="#444444",
                  activebackground="#ff4d6d", command=special_message)
 btn2.place(relx=0.5, rely=0.75, anchor="center")

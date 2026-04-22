@@ -17,7 +17,7 @@ root.geometry("600x400")
 root.configure(bg="#1c1c1c")
 
 # Fade-in effect for text
-def fade_in_text(label, text, delay=100):
+def fade_in_text(label, text, delay=60):
     for i, char in enumerate(text):
         root.after(i * delay, lambda c=char: label.config(text=label.cget("text") + c))
 
